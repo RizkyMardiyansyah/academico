@@ -4,7 +4,7 @@
 
 <div class="row" style="align-items: center; text-align: center;">
     <div class="col-sm-6">
-        <h2>Bonjour {{ backpack_user()->firstname }}</h2>
+        <h2>Hi {{ backpack_user()->firstname }}</h2>
     </div>
     <div class="col-sm-6">
         @include('partials.default_periods_info')

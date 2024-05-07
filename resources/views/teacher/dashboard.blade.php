@@ -5,7 +5,7 @@
 
         <div class="col-md-8">
 
-            <h2 class="text-center">Bonjour {{ $teacher->firstName }}</h2>
+            <h2 class="text-center">Hi {{ $teacher->firstName }}</h2>
 
         </div>
 
